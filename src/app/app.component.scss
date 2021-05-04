@@ -1,0 +1,41 @@
+$headimghiz: 39px;
+$headimgwsiz: auto;
+$headimgpadd: 40px;
+$liwegiht: 10;
+$primarycolr: #ec008c;
+$fweight: 600;
+$liweight: 20px;
+.navbar {
+    .nav-link {
+        .headimg {
+            height: $headimghiz;
+            width: $headimgwsiz;
+            padding-right: $headimgpadd;
+        }
+    }
+    .navbar-nav {
+        li {
+            font-weight: $fweight;
+            padding-right: $liweight;
+            a {
+                &:hover {
+                    color: $primarycolr;
+                }
+            }
+        }
+    }
+}
+
+.loginbtn {
+    margin-right: 14px;
+    color: #EC008C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logoutbtn {
+    margin-right: 14px;
+    color: #EC008C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

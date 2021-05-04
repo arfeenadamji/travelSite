@@ -1,0 +1,169 @@
+{
+    "age": [{
+            "ageid": 0,
+            "agegroup": "18-25years"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "24-39years"
+        }
+    ],
+    "data": [{
+            "ageid": 0,
+            "agegroup": "18-25years",
+            "trid": 0,
+            "trimg": "../../assets/images/tripcontainer1.jpg",
+            "trpara": "Active, adventurous youth holiday in rugged and beautiful Slovenia Go for an active holiday with many included activities at a top location! Incl. transport, accommodation and activities.",
+            "trhead": "Slovenia",
+            "pgid": 0,
+            "pgtitle": "Slovenia",
+            "pgpara": "Are you looking for an authentic and pleasant group trip full of exciting and special activities and cozy campfire evenings in the beautiful unspoiled nature? Then this Slovenia group tour might be something for you! Can you already picture yourself sitting by the campfire with peers, werewolves playing together with a tasty marshmallow over the campfire?We stay at the youth trip to Slovenia a k Nusse conveniently close to nature so we can easily find the adventure.At the campsite you can find a nice lake where you can relax after the activities and take a nice dip.In addition",
+            "username": "test",
+            "password": "test"
+        },
+        {
+            "ageid": 0,
+            "agegroup": "18-25years",
+            "trid": 1,
+            "trimg": "../../assets/images/tripcontainer2.jpg",
+            "trpara": "Group tour Greece.Sailing adventure around Athens. Sailing adventure around Combine island hopping with sun, sailing and beautiful Athens.",
+            "trhead": "Sun & Sailing Adventure Greece",
+            "pgid": 1,
+            "pgtitle": "Sun & Sailing Adventure Greece",
+            "pgpara": "This group tour combines life on a sailing yacht with visiting beautiful Greek islands , sailing on the Aegean sea, cozy towns and a relaxing holiday in the Greek sun. We visit Athens, after which we board the sailing yacht on Saturday. We travel with different sailing yachts together as a group. ",
+            "username": "test1",
+            "password": "test1"
+        },
+        {
+            "ageid": 0,
+            "agegroup": "18-25years",
+            "trid": 2,
+            "trimg": "../../assets/images/tripcontainer3.jpg",
+            "trpara": "Youth trip on the beach, but with adventure activities such as rock climbing and canyoning included in the price. Active beach holiday at 30 meters from the beach. ",
+            "trhead": "Croatia active",
+            "pgid": 2,
+            "pgtitle": "Croatia active",
+            "pgpara": "During this 11-day youth holiday in Croatia you will have the best of all things: sun, sea, beach, nightlife and some top activities. Go for a lively youth holiday, but with many included activities and a cozy atmosphere.             Our 4-star campsite is located just 30 meters from the sea and has a restaurant, bar and is located on a pleasant boulevard with various cafes, cocktail bars and restaurants. ",
+            "username": "test2",
+            "password": "test2"
+        },
+        {
+            "ageid": 0,
+            "agegroup": "24-39years",
+            "trid": 3,
+            "trimg": "../../assets/images/tripcontainer4.jpg",
+            "trpara": "Extra active holiday in the French Alps with many included activities. Enjoy an extra active trip to France. Together with peers between 18 and 39 years old.",
+            "trhead": "France Active plus",
+            "pgid": 3,
+            "pgtitle": "France Active plus",
+            "pgpara": "Real thrill seekers can enjoy this active holiday in France this summer . During this 10-day youth holiday you will come into contact with a large number of outdoor sports at an absolute top location in the French Alps. This group holiday takes place at the same location as the France Active group tour , but is just a bit more challenging. With a full program of outdoor activities, enthusiastic Dutch-speaking guidance and a top spot on a cozy campsite, this holiday cannot but become one big adventure!",
+            "username": "test3",
+            "password": "test3"
+        },
+        {
+            "ageid": 0,
+            "agegroup": "24-39years",
+            "trid": 4,
+            "trimg": "../../assets/images/tripcontainer5.jpg",
+            "trpara": "Croatia DeluxeActive youth holiday in South Croatia Travel incl. Return flight, luggage, accommodation and activities in a prime location near the beach and on a pleasant boulevard. ",
+            "trhead": "Croatia Deluxe",
+            "pgid": 4,
+            "pgtitle": "Croatia Deluxe",
+            "pgpara": "Croatia is one of the favorite destinations of the young people who travel with us every year. Croatia is one of the most relaxed countries to travel to with regard to corona measures. Public life is largely normal again. From July 1, 2020, we will be leaving for Croatia again to fully enjoy all the activities (which can continue as usual), the sun, the beach and the company of your travel companions, despite the crazy year.",
+            "username": "test4",
+            "password": "test4"
+        },
+        {
+            "ageid": 0,
+            "agegroup": "24-39years",
+            "trid": 5,
+            "trimg": "../../assets/images/tripcontainer6.jpg",
+            "trpara": "Active young people vacation in the French Alps. With many included activities a good, active outdoor holiday including transport, accommodation and activities.  ",
+            "trhead": "France active",
+            "pgid": 5,
+            "pgtitle": "France active",
+            "pgpara": "Tijdens deze avontuurlijke actieve vakantie in Guillestre in de Franse Alpen kun je rekenen op een week vol avontuurlijke outdoor-activiteiten, maar ook gezellige avonden, een mooie camping en een fantastische vakantie met leeftijdsgenoten. We verblijven op een camping op slechts 800 meter van het centrum van Guillestre waar je 's avonds kunt genieten van terrasjes, terwijl je overdag uitdagende activiteiten beleeft, begeleid door onze professionele gidsen. Na de activiteiten kun je ervoor kiezen gebruik te maken van het zwembad, maar je kunt er ook voor kiezen om te relaxen bij het stuwmeer iets verderop.",
+            "username": "test5",
+            "password": "test5"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "18-25years",
+            "trid": 0,
+            "trimg": "../../assets/images/tripcontainer6.jpg",
+            "trpara": "Active, adventurous youth holiday in rugged and beautiful Slovenia Go for an active holiday with many included activities at a top location! Incl. transport, accommodation and activities.",
+            "trhead": "Slovenia",
+            "pgid": 0,
+            "pgtitle": "Slovenia",
+            "pgpara": "Tijdens deze avontuurlijke actieve vakantie in Guillestre in de Franse Alpen kun je rekenen op een week vol avontuurlijke outdoor-activiteiten, maar ook gezellige avonden, een mooie camping en een fantastische vakantie met leeftijdsgenoten. We verblijven op een camping op slechts 800 meter van het centrum van Guillestre waar je 's avonds kunt genieten van terrasjes, terwijl je overdag uitdagende activiteiten beleeft, begeleid door onze professionele gidsen. Na de activiteiten kun je ervoor kiezen gebruik te maken van het zwembad, maar je kunt er ook voor kiezen om te relaxen bij het stuwmeer iets verderop.",
+            "username": "test6",
+            "password": "test6"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "18-25years",
+            "trid": 1,
+            "trimg": "../../assets/images/tripcontainer5.jpg",
+            "trpara": "Group tour Greece.Sailing adventure around Athens. Sailing adventure around Combine island hopping with sun, sailing and beautiful Athens.",
+            "trhead": "Sun & Sailing Adventure Greece",
+            "pgid": 1,
+            "pgtitle": "Sun & Sailing Adventure Greece",
+            "pgpara": "Croatia is one of the favorite destinations of the young people who travel with us every year. Croatia is one of the most relaxed countries to travel to with regard to corona measures. Public life is largely normal again. From July 1, 2020, we will be leaving for Croatia again to fully enjoy all the activities (which can continue as usual), the sun, the beach and the company of your travel companions, despite the crazy year.",
+            "username": "test7",
+            "password": "test7"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "18-25years",
+            "trid": 2,
+            "trimg": "../../assets/images/tripcontainer4.jpg",
+            "trpara": "Youth trip on the beach, but with adventure activities such as rock climbing and canyoning included in the price. Active beach holiday at 30 meters from the beach. ",
+            "trhead": "Croatia active",
+            "pgid": 2,
+            "pgtitle": "Croatia active",
+            "pgpara": "Real thrill seekers can enjoy this active holiday in France this summer . During this 10-day youth holiday you will come into contact with a large number of outdoor sports at an absolute top location in the French Alps. This group holiday takes place at the same location as the France Active group tour , but is just a bit more challenging. With a full program of outdoor activities, enthusiastic Dutch-speaking guidance and a top spot on a cozy campsite, this holiday cannot but become one big adventure!",
+            "username": "test8",
+            "password": "test8"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "24-39years",
+            "trid": 3,
+            "trimg": "../../assets/images/tripcontainer3.jpg",
+            "trpara": "Extra active holiday in the French Alps with many included activities. Enjoy an extra active trip to France. Together with peers between 18 and 39 years old.",
+            "trhead": "France Active plus",
+            "pgid": 3,
+            "pgtitle": "France Active plus",
+            "pgpara": "During this 11-day youth holiday in Croatia you will have the best of all things: sun, sea, beach, nightlife and some top activities. Go for a lively youth holiday, but with many included activities and a cozy atmosphere.             Our 4-star campsite is located just 30 meters from the sea and has a restaurant, bar and is located on a pleasant boulevard with various cafes, cocktail bars and restaurants. ",
+            "username": "test9",
+            "password": "test9"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "24-39years",
+            "trid": 4,
+            "trimg": "../../assets/images/tripcontainer2.jpg",
+            "trpara": "Croatia DeluxeActive youth holiday in South Croatia Travel incl. Return flight, luggage, accommodation and activities in a prime location near the beach and on a pleasant boulevard. ",
+            "trhead": "Croatia Deluxe",
+            "pgid": 4,
+            "pgtitle": "Croatia Deluxe",
+            "pgpara": "This group tour combines life on a sailing yacht with visiting beautiful Greek islands , sailing on the Aegean sea, cozy towns and a relaxing holiday in the Greek sun. We visit Athens, after which we board the sailing yacht on Saturday. We travel with different sailing yachts together as a group. ",
+            "username": "test10",
+            "password": "test10"
+        },
+        {
+            "ageid": 1,
+            "agegroup": "24-39years",
+            "trid": 5,
+            "trimg": "../../assets/images/tripcontainer1.jpg",
+            "trpara": "Active young people vacation in the French Alps. With many included activities a good, active outdoor holiday including transport, accommodation and activities.  ",
+            "trhead": "France active",
+            "pgid": 5,
+            "pgtitle": "France active",
+            "pgpara": "Are you looking for an authentic and pleasant group trip full of exciting and special activities and cozy campfire evenings in the beautiful unspoiled nature? Then this Slovenia group tour might be something for you! Can you already picture yourself sitting by the campfire with peers, werewolves playing together with a tasty marshmallow over the campfire?We stay at the youth trip to Slovenia a k Nusse conveniently close to nature so we can easily find the adventure.At the campsite you can find a nice lake where you can relax after the activities and take a nice dip.In addition",
+            "username": "test11",
+            "password": "test11"
+        }
+
+    ]
+}

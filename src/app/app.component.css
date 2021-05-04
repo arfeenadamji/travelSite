@@ -1,0 +1,15 @@
+.navbar .nav-link .headimg {
+  height: 39px;
+  width: auto;
+  padding-right: 40px;
+}
+
+.navbar .navbar-nav li {
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #ec008c;
+}
+/*# sourceMappingURL=app.component.css.map */

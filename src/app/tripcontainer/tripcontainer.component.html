@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <!-- <div *ngIf="showItem" class="cont"> -->
+    <div class="cont">
+        <i *ngIf="showDelteButton" (click)="deletetrip()" class="ic" value="trash">&#xf014;</i>
+        <img (click)="onSelect()" class="tripimg" src={{tripimg}} alt="not found">
+        <h2 class="triphead">{{tripheading}}</h2>
+        <span class="tripspan">{{tripspan}}</span>
+        <p class="trippara">{{trippara}}</p>
+
+        <div class="icons">
+            <ul class="d-flex">
+                <li value="bed">&#xf236;</li>
+                <li value="bus">&#xf207;</li>
+                <li value="plane">&#xf072;</li>
+                <li value="male">&#xf183;</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <h1>id = <b>{{id}}</b></h1> -->
+    <!-- <i *ngIf="id" class="ic1" (click)="onPress()" value="fa fa-plus">&#xf067;</i> -->

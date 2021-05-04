@@ -1,0 +1,28 @@
+<div class="main-banner">
+    <div class="image">
+        <img src="../../assets/images/mainImage.jpeg">
+    </div>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="para">
+                    <h1>Youth holidays / youth trips</h1>
+                    <p>Select the age group in which you are looking for a group trip. Always including flight / bus, accommodation and a package of activities that you undertake <b>together</b> with your travel companions. All your travel money is guaranteed
+                        by the SGR. You never run a financial risk. Repatriation in case of changed travel advice is at the expense of Simi if necessary.</p>
+                </div>
+
+                <div class="slt">
+                    <h3>Youth Travel 18-25</h3>
+                    <div *ngIf="select">
+                        <select (change)="onselect($event)" id="get_value" class="select_location" *ngIf="select">
+                            <!-- value shows the index of option's value -->
+                            <option value="0" selected>{{select.age[0].agegroup}}</option>
+                            <option value="1">{{select.age[1].agegroup}}</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

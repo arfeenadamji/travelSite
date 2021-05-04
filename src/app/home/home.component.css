@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn {
+  background-color: #ec008c;
+  color: #fff;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.rowstyle {
+  list-style-type: none;
+  padding: 30px 0;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+.selectsty {
+  width: 100%;
+  height: 43px;
+  border-radius: 3px;
+  padding: 0px;
+  font-family: 'FontAwesome', 'fa fa-sitemap';
+}
+
+.selectsty-1 {
+  width: 80%;
+  width: 100%;
+  height: 43px;
+  border-radius: 3px;
+  font-family: 'FontAwesome', 'fa fa-calender';
+}
+
+.backpack {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/backpack.svg) left no-repeat;
+}
+
+.transport {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/transport.svg) left no-repeat;
+}
+
+.chat {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/chat.svg) left no-repeat;
+}
+
+.logo-icon img {
+  height: 35px;
+  display: inline-block;
+  width: auto;
+  padding-right: 4px;
+}
+
+.main-inn {
+  border-bottom: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hellomain {
+  border-bottom: solid 1px #c4c4c4;
+  padding-bottom: 8px;
+}
+
+.test {
+  width: 400px;
+  padding: -0.25em -0.25em 0 .75em;
+}
+
+@media only screen and (max-width: 768px) {
+  .rowstyle {
+    padding: 10px 0px;
+  }
+  ul.main-inn {
+    padding-left: 28px;
+  }
+  .logo-icon {
+    margin-left: 0 !important;
+    padding-left: 28px;
+  }
+  .col-md-4 p {
+    font-size: 13px;
+  }
+  .hellomain {
+    border: none;
+  }
+}
+
+.font {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/chat.svg) left no-repeat;
+  content: '\f0e8';
+  font-family: FontAwesome;
+}
+
+@media only screen and (min-device-width: 667px) and (max-device-width: 736px) {
+  .tripimg {
+    width: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.footer {
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00adef;
+  text-align: center;
+}
+/*# sourceMappingURL=home.component.css.map */

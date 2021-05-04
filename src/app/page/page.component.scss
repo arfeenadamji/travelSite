@@ -1,0 +1,36 @@
+.pagecont {
+  width: 60%;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 23px;
+}
+.red {
+  color: red;
+}
+.date {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/time.svg) left no-repeat;
+}
+.tour {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/multiple.svg) left no-repeat;
+}
+.diff {
+  display: inline-block;
+  color: #212b35;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 24px;
+  margin-right: 20px;
+  background: url(../../assets/images/ic_signal.svg) left no-repeat;
+}

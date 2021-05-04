@@ -1,0 +1,107 @@
+<app-maincontainer></app-maincontainer>
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <ul class="row rowstyle">
+                <li class="col-md-4">
+                    <p>What kind of trip are you looking for</p>
+                    <select class="selectsty">
+            <option value="fa fa-sitemap"> &#xf0e8; View All trips</option>
+            <option>Travelling around Asia</option>
+            <option>Travelling around Europe</option>
+            <option>Travelling around North America</option>
+            <option>Active Holidays</option>
+            <option>Tours Centeral America</option>
+            <option>Travel eith beach time</option>
+            <option>Travleing with a lot of nature</option>
+          </select>
+                </li>
+
+                <li class="col-md-4">
+                    <p>When do you want to go</p>
+                    <select class="selectsty-1">
+            <option value="fa fa-calender"> &#xf073; View all data</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>Semptember</option>
+            <option>October</option>
+            <option>December</option>
+
+          </select>
+                </li>
+                <li class="col-md-4" style="padding-top: 32px;">
+                    <button class="btn" type="submit"> Show Holidays</button>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="main-container">
+        <div class="container-fluid" class="hellomain">
+            <div class="row col-md-12">
+                <ul class="main-inn">
+                    <li class="backpack" style="left: 12px;">
+                        <em style="margin-left: 10px;"> Your travel sum is always guaranteed
+              by SGR</em>
+                    </li>
+                    <li class="transport" style="margin-left: 30px;"><em style="margin-left: 10px;"> including transport</em></li>
+                    <li class="chat" style="margin-left: 30px;"><em style="margin-left:
+              10px;"> 10% down payment until April 1</em></li>
+                </ul>
+
+                <div class="logo-icon ml-auto">
+                    <img src="../../assets/images/cal.jpg" style="width: 150; height:
+            136;">
+                    <img src="../../assets/images/sgr.jpg" style="width: 150; height:
+            136;">
+                    <img src="../../assets/images/anvr.jpg" style="width: 150; height:
+            136;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <h1 style="padding-left: 15px; padding-top: 35px; font-weight: bold;">
+            Travelling within Europe</h1>
+    </div>
+    <a *ngIf="id" (click)="onLogout()" class="lgtbtn">LogOut</a>
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+
+            <div class="row" *ngIf="data">
+
+                <ng-container style="margin-bottom: 60px;" *ngFor="let tr of
+          data.data;let i=index">
+                    <ng-container *ngIf="tr.ageid == id">
+                        <app-tripcontainer class="col-md-4" [testId]="i" [showDelteButton]="isLoggedIn" (greet)="parentEmiiter(i)" [(tripimg)]="tr.trimg" tripheading="{{tr.trhead}}" trippara="{{tr.trpara}}" tripremove="remove">
+                        </app-tripcontainer>
+
+                    </ng-container>
+                </ng-container>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <!-- <input id="mce-EMAIL" class="email" name="EMAIL" type="email">
+    <button class="btnFooter" type="submit"> Register</button> -->
+    <p>Footer</p>
+    <em>© 2021 Simi Reizen</em>
+
+</div>
+
+<!-- <app-tempimg></app-tempimg> -->

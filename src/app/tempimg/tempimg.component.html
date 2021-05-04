@@ -1,0 +1,246 @@
+<!-- temp
+<mat-form-field appearance="fill">
+  <mat-label>Select an option</mat-label>
+  <mat-select value >
+    <mat-option value="1">18-25years</mat-option>
+    <mat-option value="2">24-39years</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div class="container-fluid">
+    <div class="col-md-12">
+      <ul class="row rowstyle">
+        <li class="col-md-4" >
+          <p >What kind of trip are you looking for</p>
+   <select class="selectsty">
+    <option value="fa fa-sitemap"> &#xf0e8; 1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+    </select>
+
+
+  </li>
+
+  </ul>
+    </div>
+</div>
+ -->
+<!-- <div class="col-md-12">
+    <div class="row rowstyle">
+      <div class="col-md-4">
+        <p>What kind of trip are you looking for</p>
+        <div class="">
+          <mat-form-field appearance=""class="" style="width: 400px; padding: -0.25em -0.25em 0 .75em; border:2px">
+            <mat-label></mat-label>
+            <mat-select matNativeControl required class="" >
+              <mat-option value="volvo">Volvo</mat-option>
+              <mat-option value="saab">Saab</mat-option>
+              <mat-option value="mercedes">Mercedes</mat-option>
+              <mat-option value="audi">Audi</mat-option>
+
+
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <p>When do you want to go</p>
+        <div class="">
+          <mat-form-field appearance="fill" style="width: 400px;">
+            <mat-label>Cars</mat-label>
+            <mat-select matNativeControl required style="border:1px">
+              <mat-option value="volvo">Volvo</mat-option>
+              <mat-option value="saab">Saab</mat-option>
+              <mat-option value="mercedes">Mercedes</mat-option>
+              <mat-option value="audi">Audi</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="padding-top: 55px;">
+        <button class="btn" type="submit"> Show Holidays</button>
+      </div>
+
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+<!-- <div class="container-fluid">
+          <div class="row" style="background-color: gray;">
+            <div class="col-md-4 col order-last" >col-md-4</div>
+            <div clas="col-md-4 offset-md-4 col-orser-first">offset -4</div>
+          </div>
+          <div class="row" style="background-color: yellow;">
+            <div class="col-md-3 offset-md-2">offset-3</div>
+            <div class="col-md-3 offset-md-3">offset-3</div>
+          </div>
+          <div class="row" style="background-color: red;">
+            <div class="col-md-6 offset-md-3">col-md-6 offset-md-3</div>
+          </div>
+          <div class="row">
+          <div class="col-md-6 offset-md-6">offset-md-2</div>
+          <div class="col-md-6 ml-auto">ml auto</div>
+        </div>
+        <div class="row">
+          <div class="col-auto mr-auto">.col-auto .mr-auto</div>
+          <div class="col-auto">.col-auto</div>
+        </div>
+
+        <div class="container-fluid px-4 border bg-green">
+          <div class="row gx-2">
+            <div class="col">
+             <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Custom column padding</div>
+            </div>
+          </div>
+        </div>
+
+          <div class="example-container">
+            <div class="example-row">
+              <div class="example-content-main">main content</div>
+              <div class="example-content-secondary">secondary</div>
+            </div>
+          </div>
+
+
+        </div> -->
+<!-- <app-tempimg></app-tempimg> -->
+
+
+<!-- <div style="text-align:center">
+  <h2>Using Solid Icons</h2>
+    <i class="fa fa-coffee"></i>
+  <i class="fa fa-sitemap"></i>
+</div> -->
+
+slick
+<div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+    <div>
+        <h3>1</h3>
+    </div>
+    <div>
+        <h3>2</h3>
+    </div>
+    <div>
+        <h3>3</h3>
+    </div>
+    <div>
+        <h3>4</h3>
+    </div>
+    <div>
+        <h3>5</h3>
+    </div>
+    <div>
+        <h3>6</h3>
+    </div>
+</div>
+
+
+
+
+
+
+<div style="width:402px">
+    <div class="container-fluid">
+
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[0]" alt="Random first slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3>10 seconds between slides...</h3>
+                    <p>This carousel uses customized default values.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[1]" alt="Random second slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3>No mouse events...</h3>
+                    <p>This carousel doesn't pause or resume on mouse events</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[2]" alt="Random third slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3>No keyboard...</h3>
+                    <p>This carousel uses customized default values.</p>
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img [src]="images[3]" alt="Random fourth slide">
+                </div>
+                <div class="carousel-caption">
+                    <h3>And no wrap after last slide.</h3>
+                    <p>This carousel uses customized default values.</p>
+                </div>
+            </ng-template>
+
+        </ngb-carousel>
+    </div>
+</div>
+checking...
+<div style="width:402px">
+    <div class="container-fluid">
+
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide style="object-fit: cover;
+            width: 402px;
+            height: 200px;
+            width:100%; object-fit: cover;">
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/images/tripcontainer1.jpg" alt="Random first slide">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>10 seconds between slides...</h3>
+                    <p>This carousel uses customized default values.</p>
+                </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/images/tripcontainer2.jpg" alt="Random second slide">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>No mouse events...</h3>
+                    <p>This carousel doesn't pause or resume on mouse events</p>
+                </div> -->
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/images/tripcontainer3.jpg" alt="Random fourth slide">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>And no wrap after last slide.</h3>
+                    <p>This carousel uses customized default values.</p>
+                </div> -->
+            </ng-template>
+
+        </ngb-carousel>
+    </div>
+</div>
+
+<div>
+    <!-- <h3 *ngFor="let bird of arrBirds"> {{bird.title}}</h3> -->
+</div>

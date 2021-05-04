@@ -1,0 +1,10 @@
+<app-maincontainer></app-maincontainer>
+<div class="container-fluid" *ngIf="pages">
+    <div class="col-md-7">
+
+        <h1><b>{{pages.data[this.pgid].pgtitle}} 18-25years</b> </h1>
+        <h3>you selected Page with id=<b>{{pgid}}</b></h3>
+        <p>{{pages.data[this.pgid].pgpara}}</p>
+
+    </div>
+</div>
