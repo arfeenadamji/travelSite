@@ -87,7 +87,6 @@
                     <ng-container *ngIf="tr.ageid == id">
                         <app-tripcontainer class="col-md-4" [testId]="i" [showDelteButton]="isLoggedIn" (greet)="parentEmiiter(i)" [(tripimg)]="tr.trimg" tripheading="{{tr.trhead}}" trippara="{{tr.trpara}}" tripremove="remove">
                         </app-tripcontainer>
-
                     </ng-container>
                 </ng-container>
             </div>
@@ -105,3 +104,4 @@
 </div>
 
 <!-- <app-tempimg></app-tempimg> -->
+
